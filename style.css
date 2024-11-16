@@ -225,7 +225,7 @@ nav #list i:hover {
   position: relative;
   padding-left: 6rem;
 }
-#left #bar {
+.bar {
   width: 2rem;
   height: 0.2rem;
   background-color: #000;
@@ -335,6 +335,10 @@ nav #list i:hover {
   color: #fff;
   cursor: pointer;
   outline: none;
+}
+
+.downArrow {
+  text-align: center;
 }
 
 #right {
@@ -483,7 +487,7 @@ nav #list i:hover {
   font-weight: 500;
 }
 
-.techStack{
+.techStack {
   display: flex;
   width: 100%;
   align-items: center;
@@ -492,7 +496,7 @@ nav #list i:hover {
   color: #02c4e6;
 }
 
-.techStack p{
+.techStack p {
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -706,8 +710,12 @@ textarea {
     padding: 0 2rem;
   }
 
+  .bar {
+    display: none;
+  }
+
   #left > h4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   #left > img {
